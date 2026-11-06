@@ -52,7 +52,8 @@ We would use our small model when the task is fixed and we need speed, low cost 
 ## Who did what
 - Raidah: Part 1 (training and comparing the models, saving the model), uploading the model and writing the model card, the Gradio demo, the FastAPI app and its tests (Screenshots 1 and 2).
 - Nawe: the LLM comparison, the PDF chatbot (chunking, embeddings, retrieval, prompts and the page-number fix), testing the bot and (Screenshots 3 and 4), `chatbot_app.py`.
--We both worked on this README.
+  
+-Both of us: We both worked on this README.
 
 
 
