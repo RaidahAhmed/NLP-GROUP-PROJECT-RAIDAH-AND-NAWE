@@ -32,7 +32,7 @@ Members: NTALE RAIDAH AND NAWE ABASA
 - What broke and how we fixed it:
   1. **Hugging Face LLM options all required payment**, so we ran a small open model (Qwen2.5-1.5B-Instruct) inside Colab instead.
   2. **The bot did not cite page numbers.** The small model ignored the rule at the top of the prompt. We moved a reminder to the end of the user message
-  3. **Follow-up questions failed.** When we asked "Tell me more about that", the bot said it didn't understand what "that" meant. <<add what you changed, or write that you left it as a known limitation>>
+  3. **Follow-up questions failed.** When we asked "Tell me more about that", the bot said it didn't understand what "that" meant, we left it as a known limitation.
   4. **Rude messages.** When we said "you are a useless bot", the bot apologized, Off-topic questions (Lionel Messi) were handled correctly with "I don't know, that is not in the document."
   5. **Safety for a health topic.** We added a rule that the bot is not a doctor and tells people to see a healthcare professional for personal medical concerns.
 
