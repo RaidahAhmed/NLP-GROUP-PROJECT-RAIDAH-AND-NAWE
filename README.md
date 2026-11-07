@@ -1,5 +1,5 @@
 # Group NLP Project
-Members: NTALE RAIDAH AND NAWE ABASA
+Members: NTALE RAIDAH AND NAWE ABAASA
 
 ## App 1: Sentiment analyser
 - Model: https://huggingface.co/RaidahAhmed/RaidahandNawe-sentiment-model
