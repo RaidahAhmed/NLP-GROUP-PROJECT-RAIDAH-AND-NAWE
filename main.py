@@ -25,4 +25,4 @@ def predict(item: TextIn):
     if not item.text.strip():
         raise HTTPException(status_code=400, detail="Text cannot be empty")
     result = clf(item.text)[0]
-    return PredictionOut(label=result["label"], score=round(result["score"], 4)
+    return PredictionOut(label=result["label"], score=round(result["score"], 4))
