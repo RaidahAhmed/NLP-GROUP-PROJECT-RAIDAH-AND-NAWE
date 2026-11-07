@@ -18,4 +18,4 @@ demo = gr.Interface(
     title="Sentiment Analyser",
     examples=["The food was amazing!", "Worst service ever."],
 )
-demo.launch()
+demo.launch(
